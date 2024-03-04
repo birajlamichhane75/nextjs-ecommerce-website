@@ -29,9 +29,9 @@ const Cart = () => {
                                             alt="Product" height={200} width={200} />
                                     </div>
                                     <div className="text">
-                                        <h4>{e.name}</h4>
-                                        <p>{e.price}</p>
-                                        <p>{e.type}</p>
+                                        <h4 style={{ fontWeight: 500 }}>{e.name}</h4>
+                                        <p style={{ fontWeight: 600 }}>{e.price}</p>
+                                        <p style={{ opacity: .7}}>{e.type}</p>
                                     </div>
                                 </div>
                                 <div className="buttons">

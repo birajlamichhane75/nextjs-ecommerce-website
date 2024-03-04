@@ -47,7 +47,7 @@ const SpecificProduct = ({ params }) => {
                         <h3 style={{ fontWeight: 500 }}>{reqData.name}</h3>
                         <p style={{ fontWeight: 600 }}>{reqData.price}</p>
                         <div onClick={addToCart}><Button name="Add to cart" /></div>
-                        <p style={{ opacityt: .7 }}>{reqData.type}</p>
+                        <p style={{ opacity: .7}}>{reqData.type}</p>
                     </div>
                 </div> : <h3>Loading...</h3>
             }
